@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo 'mvn --version'
+                echo 'release_1.0'
             }
         }
     }
